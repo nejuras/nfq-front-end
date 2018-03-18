@@ -1,0 +1,45 @@
+html,
+body {
+  font-family: Arial;
+}
+
+#main{
+  width: 55%;
+  margin: 0 auto;
+}
+
+h1,
+a {
+  color: #627d81;
+}
+
+p {
+  font-size: 18px;
+  color: #666666;
+}
+
+ul {
+  padding:0px;
+}
+
+ul li {
+  font-size: 18px;
+  color: #666666;
+  list-style-type: none;
+  display: table-row;
+}
+
+ul.what li:before {
+  content: '\2022';
+  display: table-cell;
+  color: #ff9900;
+  padding-right: 0.5em;
+}
+
+ul.who li:before {
+  content: "\2192";
+  display: table-cell;
+  color: #ff9900;
+}
+
+h2 { color: #ff9900; }
